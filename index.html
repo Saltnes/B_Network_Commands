@@ -66,22 +66,44 @@
 
         <h2>netsat - Display active connections</h2>
         <p>
+            Used to display active TCP connections without added parameters, but can show much more like what ports your
+            computer is listening to etc. common parameters include netstat -b, netstat -s, netstat-p for more see: <a
+                class="link" target="_blank"
+                href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netstat">Microsoft
+            documentation</a> or
+            use <em><b>netstat /?</b></em>
             <img src="images/netstat-b.png" alt="A Picture">
         </p>
 
-        <h2>#6</h2>
+        <h2>arp - Display and modify arp cache</h2>
         <p>
-            <img src="" alt="A Picture">
+            arp is used to display and modify the arp cache it contains one or more tables used to store IP addresses,
+            There is one table for each network adapter installed on your computer. You can delete specific entries with
+            the arp -d command and add new entries with the arp -s command. For more see: <a
+                class="link"
+                href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/arp">Microsofts
+            documentation</a>
+            <img src="images/ARP.png" alt="A Picture">
         </p>
 
-        <h2>#7</h2>
+        <h2>route - Display and modify local IP routing table</h2>
         <p>
-            <img src="" alt="A Picture">
+            The route command is used to display and edit the local IP routing table, use <em><b>route print</b></em> to
+            show your routing table. To add a new route use the <em><b>route add</b></em> command, to remove use <em><b>route
+            delete</b></em>. If you
+            want to change a route use the <em><b>route change</b></em> command. For more see: <a class="link"
+                                                                                                  href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/route_ws2008">Microsoft
+            documentation</a>
+            <img src=images/route.png alt="A Picture">
         </p>
 
-        <h2>#8</h2>
+        <h2>nbtstat - Display NetBIOS tables </h2>
         <p>
-            <img src="" alt="A Picture">
+            nbtstat is used to display NetBIOS over TCP/IP, NetBIOS tables for both local and remote computers. For more
+            see: <a class="link"
+                    href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/nbtstat">Microsoft
+            documentation.</a>
+            <img src="images/nbtstat.png" alt="A Picture">
         </p>
     </div>
 </div>
